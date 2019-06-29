@@ -1,3 +1,4 @@
+///Copy into console 
 function login(token) {
 setInterval(() => {
 document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
