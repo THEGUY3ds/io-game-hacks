@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OverHax Krunker Hack
 // @version      0.1
-// @author       gpy-dev
+// @author       THEGUY3ds
 // @include      /^(https?:\/\/)?(www\.)?(.+)krunker\.io(|\/|\/\?(game|server|party)=.+)$/
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
