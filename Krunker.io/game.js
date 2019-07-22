@@ -86264,7 +86264,7 @@ and limitations under the License.
         window.loading = !1,
         window.idleTimer = 0,
         teamName.innerHTML = "",
-        instructions.innerHTML = "CLICK TO PLAY",
+        instructions.innerHTML = "Haxx By OVERHAX THEGUY3ds",
         A = null,
         y.toggleControlUI(L.enabled),
         M.updateUI(),
