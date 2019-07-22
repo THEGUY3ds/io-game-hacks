@@ -1,4 +1,4 @@
-!function(t) {
+﻿!function(t) {
     var e = {};
     function n(i) {
         if (e[i])
@@ -24015,7 +24015,7 @@ and limitations under the License.
             }, {
                 name: "BAKA",
                 prize: 600,
-                roster: ["4tapp", "Gxngu", "?42", "Friendlies"]
+                roster: ["4tapp", "Gxngu", "魔42", "Friendlies"]
             }, {
                 name: "Krunky Boys",
                 prize: 0,
@@ -80074,7 +80074,7 @@ and limitations under the License.
         weapon: 1,
         rarity: 3
     }, {
-        name: "Scharfsch�tze",
+        name: "Scharfschütze",
         id: 5,
         weapon: 1,
         rarity: 1
@@ -86588,11 +86588,11 @@ and limitations under the License.
         t
     }
     function pn() {
-        if (!b.singlePlayer && (M && M.active || spectating))
-            for (var t = 0; t < b.players.list.length; ++t)
-                (S = b.players.list[t]).active && S.objInstances && S != M && (S.inView = !0,
-                !spectating && !(G && G == S.team) && (b.config.nameTags || b.mode.hideNames || null != b.canSee(M, S.x, S.y, S.z)) && (S.inView = !1),
-                b.players.toggleLOD(S, null == b.canSee(f.camera.getWorldPosition(), S.x, S.y, S.z, 10)))
+        if (!M.singlePlayer && (_ && _.active || spectating))
+            for (var t = 0; t < M.players.list.length; ++t)
+                (T = M.players.list[t]).active && T.objInstances && T != _ && (T.inView = !1,
+                !spectating && !(G && G == T.team) && (M.config.nameTags || M.mode.hideNames || null != M.canSee(_, T.x, T.y, T.z)) && (T.inView = !1),
+                M.players.toggleLOD(T, null == M.canSee(m.camera.getWorldPosition(), T.x, T.y, T.z, 10)))
     }
     function hn(t) {
         "wt" == t && (t = "waiting for players"),
@@ -88089,7 +88089,7 @@ and limitations under the License.
     r.toggleWindow = function(t) {
         windowHolder.style.display = t ? "block" : "none",
         baseLinks.style.display = t ? "none" : "block",
-        instructions.innerHTML = t ? "" : "Haxx By overhax"
+        instructions.innerHTML = t ? "" : "CLICK TO PLAY"
     }
     ,
     r.toggleMenuHider = function(t) {
